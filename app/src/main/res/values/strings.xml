@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Car Wash</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="password">Password</string>
+    <string name="cPassword">Confirm Password</string>
+    <string name="register">Register</string>
+    <string name="newAccount">New Account</string>
+    <string name="open">Drawer Opened</string>
+    <string name="close">Drawer Closed</string>
+    <string name="welcome">Welcome Back: </string>
+
+    <string name="home">Home</string>
+    <string name="request">Service Request</string>
+    <string name="logs">Services</string>
+    <string name="login">Login</string>
+    <string name="contact">Contact Us</string>
+    <string name="profile">My Profile</string>
+    <string name="settings">Settings</string>
+    <string name="others">  Others</string>
+    <string name="about">About Us</string>
+    <string name="policy">Privacy Policy</string>
+    <string name="create">Create Account</string>
+
+    <string name="makeRequest">Make Request</string>
+    <string name="welcomeText">Welcome! Our Service is best of its kind. Start using it today</string>
+    <string name="text">Thanks For using our service. We promise to always meet your requirement.</string>
+
+    <string name="lorem">
+        On Demand Car Wash provide quick and fast car washing service and it is best of its kind! Our goal is to always meet your requrement anyday any time. Welcome to using Our Service.
+    </string>
+
+
+    <string name="ourPolicy">
+        Our Policy is so user friendly and it so convinient for all our customers
+    </string>
+    <string name="aboutUs">On Demand Car wash is a final year project carried out by Aanu
+        under the supervision of the department HOD Mrs Alaran implemented in Android Platform
+        using Java Programming Language and XAMPP Local server for testing</string>
+    <string name="services">Services</string>
+</resources>

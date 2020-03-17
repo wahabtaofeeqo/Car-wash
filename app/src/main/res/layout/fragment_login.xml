@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.LoginFragment"
+    android:background="@drawable/car2">
+
+
+   <androidx.core.widget.NestedScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:layout_gravity="center"
+           android:padding="@dimen/_16sdp">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/welcome"
+               android:textColor="@color/colorPrimary"
+               android:textAppearance="@style/TextAppearance.AppCompat.Title"
+               android:lineSpacingMultiplier="1.5"
+               android:layout_marginBottom="@dimen/_10sdp"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+               android:textStyle="bold"
+               android:id="@+id/textView"
+               android:layout_marginBottom="@dimen/_16sdp"/>
+
+<!--           <view-->
+<!--               android:layout_width="@dimen/_25sdp"-->
+<!--               android:layout_height="@dimen/_2sdp"-->
+<!--               android:id="@+id/divider"-->
+<!--               android:background="@color/colorAccent"-->
+<!--               android:layout_marginBottom="@dimen/_45sdp"-->
+<!--               class="android.widget.TextView"/>-->
+
+<!--           <TextView-->
+<!--               android:layout_width="wrap_content"-->
+<!--               android:layout_height="wrap_content"-->
+<!--               android:text="Pass Code:"-->
+<!--               android:textStyle="bold"-->
+<!--               android:textColor="@color/colorPrimary"-->
+<!--               android:textAppearance="@style/TextAppearance.AppCompat.Subhead"/>-->
+
+           <com.google.android.material.textfield.TextInputLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+               android:hint="Email"
+               android:layout_marginBottom="@dimen/_16sdp">
+
+               <com.google.android.material.textfield.TextInputEditText
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:id="@+id/email" />
+           </com.google.android.material.textfield.TextInputLayout>
+           <com.chaos.view.PinView
+               android:id="@+id/pinView"
+               style="@style/PinWidget.PinView"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:cursorVisible="true"
+               android:hint="12345"
+               android:inputType="numberPassword"
+               android:layout_marginTop="@dimen/_16sdp"
+               android:textColor="@color/colorAccent"
+               android:textColorHint="@color/colorPrimaryDark"
+               android:textSize="@dimen/_14sdp"
+               android:textStyle="bold"
+               app:cursorWidth="2dp"
+               app:hideLineWhenFilled="false"
+               app:itemCount="5"
+               app:itemHeight="48dp"
+               app:itemRadius="4dp"
+               app:itemSpacing="@dimen/_5sdp"
+               app:itemWidth="@dimen/_50sdp"
+               app:lineWidth="2dp"
+               app:lineColor="@color/colorPrimary"
+               app:viewType="rectangle" />
+
+           <com.google.android.material.button.MaterialButton
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="@dimen/_50sdp"
+               android:id="@+id/btnRegister"
+               style="@style/Widget.MaterialComponents.Button"
+               android:text="@string/create"
+               android:textAllCaps="false"/>
+
+       </LinearLayout>
+   </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
